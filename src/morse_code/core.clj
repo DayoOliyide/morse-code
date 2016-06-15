@@ -133,9 +133,6 @@
 
 (comment
 
-  (set-digital @BOARD LED-PIN :low)
-  (set-digital @BOARD LED-PIN :high)
-
   (blink! 100)
   (blink! 1000)
   (dot!)

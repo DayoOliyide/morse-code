@@ -8,9 +8,6 @@ Arduino's onboard LED (default pin 13)
 ```clojure
 (use 'morse-code.core)
 
-  (set-digital @BOARD LED-PIN :high) ;; switch LED on
-  (set-digital @BOARD LED-PIN :low)  ;; switch LED off
-
   (blink! 100)  ;; switch LED on for 100 milliseconds
   (blink! 1000) ;; switch LED on for 1000 milliseconds
 
