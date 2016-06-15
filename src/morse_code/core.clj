@@ -11,7 +11,7 @@
 (def dot-duration 200)
 (def dash-duration (* 3 dot-duration))
 
-(defn init!
+(defn init-board!
   ([]
    @BOARD)
 
