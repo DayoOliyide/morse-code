@@ -11,6 +11,16 @@
 (def dot-duration 200)
 (def dash-duration (* 3 dot-duration))
 
+(defn init!
+  ([]
+   @BOARD)
+
+  ([{:keys [port-name led-pin]
+     :or {port-name :auto-detect
+          led-pin LED-PIN}}]
+   (-> (open-serial-board port-name)
+       (set-pin-mode led-pin :output))))
+
 (defn signal-interval []
   (Thread/sleep dot-duration))
 
