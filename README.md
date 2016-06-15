@@ -5,6 +5,13 @@ Arduino's onboard LED (default pin 13)
 
 ## Usage
 
+Add to the dependencies vector in your project.clj
+
+```clojure
+[com.dayooliyide/morse-code "0.1.0"]
+```
+
+From your REPL
 ```clojure
 (use 'morse-code.core)
 
