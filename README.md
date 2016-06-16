@@ -15,6 +15,9 @@ From your REPL
 ```clojure
 (use 'morse-code.core)
 
+  (init-board!) ;; Initialises a connection to the board and
+                ;; returns a clojure map representation of the board.
+
   (blink! 100)  ;; switch LED on for 100 milliseconds
   (blink! 1000) ;; switch LED on for 1000 milliseconds
 

@@ -1,4 +1,4 @@
-(defproject com.dayooliyide/morse-code "0.1.0-SNAPSHOT"
+(defproject com.dayooliyide/morse-code "0.1.0"
   :description "A Clojure library for using Arduino's on board LED for Morse code"
   :url "https://github.com/DayoOliyide/morse-code"
   :license {:name "Eclipse Public License"
